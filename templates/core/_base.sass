@@ -1,0 +1,31 @@
+*
+	box-sizing: border-box
+
+body
+	font-family: 'Roboto', sans-serif
+
+a 
+	text-decoration: none
+	&:hover
+		outline: none
+	&:active
+		outline: none
+	&:focus
+		outline: none
+
+.clearfix:after
+	content: ''
+	clear: both
+	display: block
+	overflow: hidden
+
+.main
+	max-width: 1090px
+	padding: 0 30px
+	margin: 0 auto
+
+h3
+	font-size: 18px
+
+.row 
+	@extend .clearfix
