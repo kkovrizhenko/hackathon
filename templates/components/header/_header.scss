@@ -1,0 +1,77 @@
+.site-header {
+	font-family: Roboto;
+	font-style: 16px;
+}
+
+.header-shadow {
+	box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
+
+.header-logo {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 107px;
+	width: 10%
+}
+
+
+
+.header-search {
+	display: inline-block;
+	vertical-align: middle;
+	width: 59%;
+}
+
+.header-btn-search {
+	border: none;
+    background-color: transparent;
+	background: url(images/header/icon-search.svg) 0 center no-repeat;
+	width: 20px;
+    height: 20px;
+   	width: 5%;
+   	display: inline-block;
+    vertical-align: middle
+}
+
+.header-search-form {
+	border: none;
+	width: 94%;
+	height: 30px;
+}
+
+
+
+
+.header-guest {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+}
+
+	.icon-guest {
+		background: url(images/header/header-user_pic.png) 0 center no-repeat;
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+
+
+	.name-guest {
+		color: #939497;
+		display: inline-block;
+		vertical-align: middle;
+	    padding-right: 12%;
+	}
+	.name-guest2 {
+		color: #1d6bb2;
+	}
+
+	.icon-notification {
+		background: url(images/header/icon-notification.svg) 0 center no-repeat;
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		vertical-align: middle;
+	}
