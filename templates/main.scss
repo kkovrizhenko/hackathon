@@ -8,3 +8,15 @@
 @import "profile/profile-header/_profile-header.scss";
 @import "sign-in/sign-in-form/_sign-in-form.scss";
 @import "sign-in/sign-in-news/_sign-in-news.scss";
+
+.container {
+	float: right;
+    width: calc(100% - 260px);
+    height: 100%;
+    position: relative;
+    transition: width 0.3s ease;
+}
+
+.container.container-closed-m {
+	width: calc(100% - 50px);
+}

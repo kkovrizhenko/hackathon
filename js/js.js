@@ -3,4 +3,6 @@ $( ".slide-menu-togle" ).click(function() {
     $(".slide-menu").toggleClass('slide-menu-isclosed');
     $(".slide-menu-contacts").toggleClass('slide-menu-contacts-isclosed');
     $(".slide-menu-icon").toggleClass('slide-menu-icon-isclosed');
+    $(".container").toggleClass('container-closed-m');
 });
+
