@@ -59,18 +59,19 @@
 }
 .cntrs_info_calendar{
   display: inline;
-	width: 13px;
-  height: 11px;
   padding-right: 10px;
 }
 .cntrs_info_letter{
   display:inline;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
 }
 
 .cntrs_info_invest_text{
   display: inline;
   color: #fa8903;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
@@ -78,20 +79,30 @@
 
 .cntrs_info_shield{
   display: inline;
-	width: 10px;
-  height: 12px;
   padding-left: 44px;
   padding-right: 9px;
 }
 
-.shield{
+.cntrs_shield{
   padding-left: 57px;
 }
 
 .cntrs_info_junior{
 	display: inline;
   padding-right: 53px;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
 
+.cntrs_info_status{
+  display: inline;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  padding-left: 5px;
 }
 
 .cntrs_info_status:before{
@@ -100,11 +111,6 @@
   height: 11px;
   border-radius: 50%;
   background-color: #f5b800;
-}
-
-.cntrs_info_status{
-	display: inline;
-  
 }
 
 .cntrs_button{
@@ -149,9 +155,8 @@
   text-transform: capitalize; 
 }
 
-.contracts_all_button{
+.cntrs_button{
   display: inline;
-  border: 2px solid #4c9d11;
   border-radius: 50%;
   margin-top: 24px;
   margin-right: 30px;
@@ -161,8 +166,8 @@
 .vertical_text{
     position: absolute;
     z-index: 90;
-    right: 209px;
-    bottom: 0px;
+    right: 332px;
+    bottom: 24px;
     color: #ffffff;
     padding: 11px 80px;
     background: #fa8903;
