@@ -1,0 +1,71 @@
+.profile-settings__item
+	display: inline-block
+	width: 33.33%
+	vertical-align: top
+	padding: 0 0 29px 80px
+	font-size: 16px
+
+.communication i
+	display: inline-block
+	vertical-align: middle
+	width: 36px
+	height: 16px
+	border: 1px solid #eeeeee
+	background-color: #eeeeee
+	border-radius: 8px
+	position: relative
+
+	&::before
+		content: ''
+		position: absolute
+		top: 0px
+		bottom: 0px
+		left: 0px
+		right: 0px
+		border-radius: 8px
+		background-color: #1d6bb2
+		transform: scale(0)
+
+	&::after
+		content: ''
+		position: absolute
+		top: -4px
+		left: 0
+		width: 22px
+		height: 22px
+		border-radius: 50%
+		background-color: #fafafa
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15)
+
+.communication 
+	label
+		display: block
+		margin-bottom: 25px
+
+		p
+			display: inline-block
+			margin-left: 18px
+
+	input
+		display: none
+
+.communication input:checked + i::before
+	transform: scale(1)
+
+.communication input:checked + i::after
+	left: 100%
+	transform: translateX(-100%)
+
+.settings__item__lang
+	color: #1a2235
+	font-size: 16px
+	text-transform: uppercase
+	display: inline-block
+	margin-right: 10px
+
+	&:hover
+		color: #1d6bb2
+		font-weight: 500
+
+	&_active
+		@extend .settings__item__lang:hover

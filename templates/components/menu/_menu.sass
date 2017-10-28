@@ -1,0 +1,102 @@
+body
+  height: 100%
+
+html
+  height: 100%
+
+.menu
+  background-image: url('../pic/forest-header.jpg')
+  width: 260px
+  height: 100%
+  background-repeat: no-repeat
+  background-size: cover
+  z-index: 2
+  transform: translate(0, 0)
+  float: left
+  transition: all 0.3s ease;
+
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #367ec0
+    opacity: 0.5
+    z-index: -1
+
+    .main-menu
+      display: flex
+      flex-direction: column
+
+.slide-menu
+  text-align: left
+  flex: 1
+
+.slide-menu-isclosed
+  display: none
+
+.slide-menu-item
+  color: #fff
+  width: 100%
+  padding: 15px 0%
+  display: inline-block
+  text-decoration: none
+  text-transform: uppercase
+
+.slide-menu-item-icon
+  margin: 0 30px
+
+.slide-menu-item
+  &:hover
+    text-decoration: underline
+  &:active
+    color: #333
+
+.slide-menu-icon
+  width: 21px
+  height: 15px
+  margin: 30px
+
+.slide-menu-icon-isclosed
+  margin: 30px 15px
+
+.slide-menu-contacts
+  display: inline-block
+  text-align: left
+  padding: 30px
+
+.slide-menu-contacts-isclosed
+  display: none
+
+.slide-menu-contacts-phone
+  color: #fff
+  font-size: 25px
+  width: 100%
+  text-decoration: none
+  text-transform: uppercase
+
+.slide-menu-contacts-item
+  padding: 15px
+
+.menu-isclosed
+  width: 50px
+  height: 100%
+  background-image: url('pic/forest-header.jpg')
+  display: flex
+  flex-direction: column
+  background-repeat: no-repeat
+  background-size: cover
+  position: relative
+  z-index: 2
+  &::after
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #367ec0
+    opacity: 0.9
+    z-index: -1

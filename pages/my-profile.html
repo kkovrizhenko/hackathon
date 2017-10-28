@@ -1,4 +1,21 @@
 @@include('../templates/core/start.html')
-@@include('../templates/components/header/header.html')
-@@include('../templates/components/footer/footer.html')
+@@include('../templates/components/menu/menu.html')
+	<div class="container ">
+		@@include('../templates/components/header/header-login.html')
+		@@include('../templates/components/page-title/page-title.html')
+		@@include('../templates/profile/profile-header/profile-header.html')
+		@@include('../templates/components/tabs/tabs.html', {
+   "btn": {
+       "n1": "Умови",
+       "n2": "Графік платежів",
+       "n3": "Бонуси"
+   },
+   "view": {
+       "c1": "@@include('../../blocks/profile-contacts/profile-contacts.html')",
+       "c2": "2",
+       "c3": "3"
+   }
+})
+	@@include('../templates/components/footer/footer.html')
+	</div>
 @@include('../templates/core/end.html')
