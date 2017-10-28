@@ -1,0 +1,91 @@
+.polis-payments {
+	width: 100%;
+	margin-bottom: 122px;
+	border-collapse: collapse;
+}
+
+.polis-payment-title {
+	padding: 44px 0 9px 28px;
+	color: #1a2235;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: left;
+}
+
+.polis-payments-header {
+	background-color: #4c9d11;
+}
+
+.polis-payments-header th {
+	padding: 6px 0;
+	word-wrap: break-word;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.polis-payments-header th,
+.polis-payments-row td {
+	text-align: center;
+}
+
+.polis-payments-header th:nth-child(5),
+.polis-payments-header th:nth-child(7),
+.polis-payments-header th:nth-child(8),
+.polis-payments-row td:nth-child(5),
+.polis-payments-row td:nth-child(7),
+.polis-payments-row td:nth-child(8) {
+	text-align: right;
+}
+
+.polis-payments-header th:nth-child(8),
+.polis-payments-row td:nth-child(8) {
+	padding-right: 30px;
+}
+
+.year {
+	width: 6.422%;
+}
+.tipe {
+	width: 10.55%;
+}
+.date-plan {
+	width: 14.59%;
+}
+.currency {
+	width: 10.18%;
+}
+.plan-payment {
+	width: 16.51%;
+}
+.fact-payment {
+	width: 17.43%;
+}
+.paid {
+	width: 11.93%;
+}
+.equivalent {
+	width: 12.39%;
+}
+
+.polis-payments td {
+	min-height: 48px;
+	padding: 17px 0 9px 0; 
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #1a2235;
+}
+
+.polis-payments-row {
+	box-shadow: 0 1px 0 #eeeeee, 
+				0 -1px 0 #eeeeee;
+}
+
+.polis-payments-row:nth-child(2n) {
+	background-color: #f6f7fb;
+}
+
