@@ -1,0 +1,54 @@
+.my-polis-terms {
+	width: auto;
+}
+
+.container {
+
+}
+
+.my-polis-terms_h4 {
+	color: #1a2235;
+    padding-left: 15px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.my-polis-terms_tr-h {
+	background-color: #4c9d11;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.my-polis-terms_table {
+	width:100%;
+	border-collapse: collapse;
+	box-sizing: border-box;
+    padding: 5px;
+}
+
+.my-polis-terms_table td {
+	box-sizing: border-box;
+    padding: 5px 5px 5px 15px;
+}
+
+.my-polis-terms_table-right td:nth-child(3) {
+text-align: right;
+}
+
+.my-polis-terms_table-row tr:nth-child(3) {
+background-color: #fafafa;
+}
+
+// .tr:nth-child(3) {
+// 	background-color: #fafafa;
+// }
+
+
+
+.my-polis-terms_img {
+	width:100%;
+	height: auto;
+}
