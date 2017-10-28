@@ -1,0 +1,44 @@
+.profile_user_photo__box {
+    background: url('../pic/forest-header.png') no-repeat center top;
+    height: 230px;
+    
+}
+.random__profile_photo {
+    
+    margin: 0 auto;
+}
+.current__profile_photo {
+    position: relative;
+    top: 44px;
+    margin: 0 auto;
+    background-image: url('../pic/568911802-1280x720.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.bla1 {
+position: relative;
+top: 56px;
+right: 42px;
+border:2px solid white;
+width:162px;
+height:0px;
+ transform: rotate(-60deg);
+}
+.bla2 {
+position: absolute;
+top: 47px;
+right: -52px;
+border:2px solid white;
+width:164px;
+height:0px;
+ transform: rotate(60deg);
+}
+.bla3 {
+position: absolute;
+bottom: 12px;
+right: -9px;
+border:2px solid white;
+width:162px;
+height:0px;
+}

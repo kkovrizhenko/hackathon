@@ -8,7 +8,54 @@
 </head>
 <body>
 
-<header class="site-header">
+
+<section class="menu">
+   <div class="main-menu">
+       <a href="#" class="slide-menu-togle">
+           <img src="images/menu/icon-more.svg" alt="" class="slide-menu-icon">
+       </a>
+       <nav class="slide-menu">
+
+           <a href="#" class="slide-menu-item">
+               <img src="images/menu/icon-home.svg" alt="" class="slide-menu-item-icon">
+               Головна</a>
+           <a href="#"class="slide-menu-item">
+               <img src="images/menu/icon-shield.svg" alt="" class="slide-menu-item-icon">
+               Поліси</a>
+           <a href="#" class="slide-menu-item">
+               <img src="images/menu/icon-umbrella.svg" alt="" class="slide-menu-item-icon">
+               Страхування</a>
+           <a href="#" class="slide-menu-item">
+               <img src="images/menu/icon-smth.svg" alt="" class="slide-menu-item-icon">
+               Пенсія</a>
+           <a href="#"class="slide-menu-item">
+               <img src="images/menu/icon-chart.svg" alt="" class="slide-menu-item-icon">
+               Інвестиції</a>
+           <a href="#" class="slide-menu-item">
+               <img src="images/menu/icon-atom.svg" alt="" class="slide-menu-item-icon">
+               Навчання</a>
+       </nav>
+       <div class="slide-menu-contacts">
+           <a href="tel:0800500123" class="slide-menu-contacts-phone">
+               <pre>0 800 500 123</pre>
+           </a>
+           <a href="#" class="slide-menu-contacts-item">
+               <img src="images/menu/help/skype.svg" alt="" class="slide-menu-contacts-icon">
+           </a>
+           <a href="#" class="slide-menu-contacts-item">
+               <img src="images/menu/help/icon-consultant.svg" alt="" class="slide-menu-contacts-icon">
+           </a>
+           <a href="#" class="slide-menu-contacts-item">
+               <img src="images/menu/help/icon-email2.svg" alt="" class="slide-menu-contacts-icon">
+           </a>
+       </div>
+   </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/js.js"></script>
+
+	<div class="container ">
+		<header class="site-header">
 	<div class="header-shadow">
 		
 		<img src="images\header\logo.png" class="header-logo">
@@ -20,19 +67,40 @@
 
 		
 
-		<div class="header-user">
-			<div class="icon-user"></div>
-			<p class="name-user">
-				Вітаємо, Оксано!<br>
-				<span class="name-user2">Вийти з кабінету</span>			
+		<div class="header-guest">
+			<div class="icon-guest"></div>
+			<p class="name-guest">
+				Вітаємо, Гість!<br>
+				<span class="name-guest2">Авторизуватися</span>			
 			</p>
 			<div class="icon-notification"></div>
 		</div>
 	</div>
 </header>
+		
+		<div class="profile_user_photo__box">
 
+		<div class="random__profile_photo">
+			<figure class="current__profile_photo">
+				<hr class="bla1">
+				<hr class="bla2">
+				<hr class="bla3">
+			</figure>
+			
+		</div>
 
-<div class="profile-contacts__item">
+		
+</div>
+		<div class="tabs-wrap">
+  <div class="tabs-navigation">
+    <ul class="tabs-caption">
+        <li class="tabs-caption__link current">Умови</li>
+        <li class="tabs-caption__link">Графік платежів</li>
+        <li class="tabs-caption__link">Бонуси</li>
+    </ul>
+  </div>
+    <div class="tabs__content visible">
+        <div class="profile-contacts__item">
 	<h3 class="profile__item__title">Телефон</h3>
 	<div class="profile-contacts__phone-number">
 		<a href="tel:+380671234567 " class="profile-contacts-link">+380 (67) 123-45-67 </a>
@@ -62,7 +130,15 @@
 		<p class="profile-contacts-text">Додатковий e-mail</p>
 	</div>
 </div>
-
+    </div>
+    <div class="tabs__content">
+        2
+    </div>
+    <div class="tabs__content">
+       3
+    </div>
+</div>
+	
 
 	<footer>
 
@@ -89,6 +165,7 @@
 	</footer>
 	
 
+	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/common.js"></script>
