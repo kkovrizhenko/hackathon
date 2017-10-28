@@ -108,7 +108,7 @@ gulp.task('clean', function() {
 
 // створення спрайту з картинок з папки images/sprite
 gulp.task('sprite', function() {
-    var spriteData = gulp.src('images/sprite/*/*.png','images/sprite/*.svg').pipe(
+    var spriteData = gulp.src('images/sprite/*.png').pipe(
         spritesmith({
             imgName: 'sprite.png',
             cssName: '_icon-mixin.scss',
