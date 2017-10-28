@@ -1,0 +1,22 @@
+@@include('../templates/core/start.html')
+@@include('../templates/components/menu/menu.html')
+
+<div class="container ">
+	@@include('../templates/components/header/header.html')
+	@@include('../templates/components/page-title/page-title.html')
+	@@include('../templates/components/tabs/tabs.html', {
+	   "btn": {
+	       "n1": "Всі поліси",
+	       "n2": "Дійсні",
+	       "n3": "Редуковані"
+	   },
+	   "view": {
+	       "c1": "@@include('../../blocks/contracts-all/contracts-all.html')",
+	       "c2": "@@include('../../blocks/contracts-current/contracts-current.html')",
+	       "c3": "@@include('../../blocks/contracts-demoted/contracts-demoted.html')"
+	   }
+	})
+	@@include('../templates/components/footer/footer.html')
+</div>
+
+@@include('../templates/core/end.html')
