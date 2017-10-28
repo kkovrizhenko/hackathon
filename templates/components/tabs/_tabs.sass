@@ -1,0 +1,27 @@
+
+.tabs-caption
+  padding: 0
+  &__link
+    float: left
+    width: 33.3333%
+    list-style: none
+    color: #1a2235
+    cursor: pointer
+    font-size: 16px
+    font-weight: 500
+    padding: 22px 0 12px 30px
+    text-transform: uppercase
+    transition: box-shadow 0.25s ease-out
+    box-shadow: 1px 0 0 #eeeeee, 0 -1px 0   #eeeeee, 0 1px 0 #eeeeee
+    &:hover
+      box-shadow: 1px 0 0 #eeeeee, 0 -1px 0 #eeeeee, 0 1px 0 #eeeeee, inset 0 -3px 0 #4c9d11
+.tabs-caption__link.current
+  box-shadow: 1px 0 0 #eeeeee, 0 -1px 0 #eeeeee, 0 1px 0 #eeeeee, inset 0 -3px 0 #4c9d11
+
+.tabs__content
+  display: none
+  
+.tabs__content.visible
+  display: block 
+
+  
