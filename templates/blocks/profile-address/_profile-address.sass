@@ -1,0 +1,23 @@
+.profile
+	&-address__item
+		display: inline-block
+		width: 50%
+		padding-left: 29px
+
+	&__item__address
+		color: #1a2235
+		font-size: 16px
+		font-style: normal
+		padding: 0 25px 0 42px
+		position: relative
+		display: inline-block
+
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 50%
+			transform: translateY(-50%)
+			background: url('icon-location.svg'), no-repeat
+			width: 21px
+			height: 31px
