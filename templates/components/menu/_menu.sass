@@ -1,7 +1,5 @@
+html,
 body
-  height: 100%
-
-html
   height: 100%
 
 .menu
@@ -26,16 +24,22 @@ html
     opacity: 0.5
     z-index: -1
 
-    .main-menu
-      display: flex
-      flex-direction: column
+.main-menu
+  height: 100%
+  display: flex
+  flex-direction: column
 
 .slide-menu
   text-align: left
   flex: 1
 
 .slide-menu-isclosed
-  display: none
+  .slide-menu-item
+    visibility: hidden
+
+    img
+      margin: 0 15px
+      visibility: visible
 
 .slide-menu-item
   color: #fff
@@ -44,6 +48,7 @@ html
   display: inline-block
   text-decoration: none
   text-transform: uppercase
+  white-space: nowrap
 
 .slide-menu-item-icon
   margin: 0 30px
@@ -64,11 +69,18 @@ html
 
 .slide-menu-contacts
   display: inline-block
-  text-align: left
+  text-align: center
   padding: 30px
 
 .slide-menu-contacts-isclosed
-  display: none
+  padding: 10px
+  text-align: center
+
+  a
+    padding: 10px 2px
+
+  .slide-menu-contacts-phone 
+    display: none
 
 .slide-menu-contacts-phone
   color: #fff
@@ -78,6 +90,7 @@ html
   text-transform: uppercase
 
 .slide-menu-contacts-item
+  display: inline-block
   padding: 15px
 
 .menu-isclosed
