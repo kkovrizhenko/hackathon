@@ -1,0 +1,58 @@
+.sign-in {
+	text-align: center;
+	padding: 50px;
+}
+
+.sign-in__header {
+	color: #1a2235;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.sign-in__form {
+	width: 400px;
+	margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.sign-form-label {
+	position: absolute;
+	color: #939497;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.sign-in-form__input {
+	width: 322px;
+	height: 59px;
+	border-radius: 2px;
+	border: 1px solid #e7e9eb;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	font-size: 18px;
+    padding: 20px 10px 0;
+}
+
+.button {
+	width: 322px;
+	height: 59px;
+	box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
+	border-radius: 2px;
+	background-color: #1d6bb2;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.sign-in_info-text {
+	color: #aeb2bb;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	padding: 20px;
+}
