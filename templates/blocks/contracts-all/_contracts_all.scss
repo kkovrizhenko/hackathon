@@ -1,0 +1,169 @@
+.contracts_all{
+	width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cntrs_all_my{
+  display: block;
+	padding: 20px 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.cntrs_img{
+  display: inline-block;
+  vertical-align: top;
+	width: 38px;
+	height: 52px;
+	border: 1px solid #d0d3da;
+	background-color: #fafafa;
+  margin-right: 29px;
+}
+.cntrs_text{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cntrs_text_my{
+  display: block;
+}
+
+.cntrs_text_title{
+  display: inline;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	color: #1a2235;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.cntrs_text_icon{
+  display: inline;
+	width: 13px;
+  height: 13px;
+}
+
+.cntrs_info_info{
+  display: inline;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding-right: 52px;
+}
+
+.cntrs_info{
+  display: inline-block;
+}
+.cntrs_info_calendar{
+  display: inline;
+  padding-right: 10px;
+}
+.cntrs_info_letter{
+  display:inline;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.cntrs_info_invest_text{
+  display: inline;
+  color: #fa8903;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.cntrs_info_shield{
+  display: inline;
+  padding-left: 44px;
+  padding-right: 9px;
+}
+
+.cntrs_shield{
+  padding-left: 57px;
+}
+
+.cntrs_info_junior{
+	display: inline;
+  padding-right: 53px;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.cntrs_info_status{
+  display: inline;
+  color: #939497;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  padding-left: 5px;
+}
+
+.cntrs_info_status:before{
+	display: inline;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #f5b800;
+}
+
+.cntrs_button{
+  float: right;
+}
+
+
+.cntrs_symbol{
+  display: inline;
+  background-image: url(../../../images/general/icon-next.svg);
+  padding-right: 77px;
+  background-repeat: no-repeat;
+}
+
+.cntrs_all_my_status{
+
+}
+
+.button_market{
+  padding: 28px 22px 13px 21px;
+  
+}
+
+.button_basket:hover{
+  outline: 0;
+}
+
+.cntrs_all_invest{
+  background-color: #fff6e1;
+  position: relative;
+}
+
+.cntrs_img_lemon{
+  padding-right: 29px;
+}
+
+.invest{
+  color: #fa8903;
+  padding-right: 87px;
+}
+
+.vertical_text{
+  position: absolute;
+  z-index: 90;
+  right: 20%;
+  bottom: 50%;
+  padding: 11px 80px;
+  background: #fa8903;
+  transform: translateY(50%) rotate(-45deg);
+
+  &_title {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
+}

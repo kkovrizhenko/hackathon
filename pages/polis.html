@@ -2,20 +2,22 @@
 @@include('../templates/components/menu/menu.html')
 
 <div class="container ">
-  @@include('../templates/components/header/header.html')
-  @@include('../templates/components/page-title/page-title.html')
-  @@include('../templates/components/tabs/tabs.html', {
-     "btn": {
-         "n1": "Умови",
-         "n2": "Графік платежів",
-         "n3": "Бонуси"
-     },
-     "view": {
-       "c1": "'../../blocks/my-polis-terms/my-polis-terms.html'",
-       "c2": "@@include('../../blocks/my-polis-payments/my-polis-payments.html')",
-       "c3": "'../../blocks/my-polis-bonuses/my-polis-bonuses.html'"
-     }
-  })
+  <div class="container_content">
+    @@include('../templates/components/header/header.html')
+    @@include('../templates/components/page-title/page-title.html')
+    @@include('../templates/components/tabs/tabs.html', {
+       "btn": {
+           "n1": "Умови",
+           "n2": "Графік платежів",
+           "n3": "Бонуси"
+       },
+       "view": {
+         "c1": "@@include('../../blocks/my-polis-terms/my-polis-terms.html')",
+         "c2": "@@include('../../blocks/my-polis-payments/my-polis-payments.html')",
+         "c3": "@@include('../../blocks/my-polis-bonuses/my-polis-bonuses.html')"
+       }
+    })
+  </div>
   @@include('../templates/components/footer/footer.html')
 </div>
 

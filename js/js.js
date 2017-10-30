@@ -6,3 +6,7 @@ $( ".slide-menu-togle" ).click(function() {
     $(".container").toggleClass('container-closed-m');
 });
 
+$('body').on("click", ".sgn-btn-continue", function(e){
+   $(".sign-form, .sign-in__form-code").toggle();
+});
+

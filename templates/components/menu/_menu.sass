@@ -1,17 +1,14 @@
-html,
-body
-  height: 100%
-
 .menu
   background-image: url('../pic/forest-header.jpg')
   width: 260px
-  height: 100%
   background-repeat: no-repeat
   background-size: cover
   z-index: 2
   transform: translate(0, 0)
   float: left
   transition: all 0.3s ease;
+  position: fixed
+  height: 100vh
 
   &:after
     content: ''
@@ -95,13 +92,12 @@ body
 
 .menu-isclosed
   width: 50px
-  height: 100%
   background-image: url('pic/forest-header.jpg')
   display: flex
   flex-direction: column
   background-repeat: no-repeat
   background-size: cover
-  position: relative
+  position: fixed
   z-index: 2
   &::after
     content: ''

@@ -14,3 +14,13 @@
 .button:hover {
 	background-color: #154e82;
 }
+
+.button_basket{
+  background-image: url(../../../images/general/icon-market.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
+}

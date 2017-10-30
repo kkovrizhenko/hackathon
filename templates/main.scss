@@ -7,14 +7,18 @@
 @import "chat/_chat.scss";
 @import "profile/profile-header/_profile-header.scss";
 @import "sign-in/sign-in-form/_sign-in-form.scss";
-@import "sign-in/sign-in-news/_sign-in-news.scss";
+@import "sign-in/sign-in-news/_sign-in-news.scss"; 
 
 .container {
 	float: right;
     width: calc(100% - 260px);
-    height: 100%;
+    min-height: 100vh;
     position: relative;
     transition: width 0.3s ease;
+
+    &_content {
+    	padding-bottom: 60px;
+    }
 }
 
 .container.container-closed-m {
