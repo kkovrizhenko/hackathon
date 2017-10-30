@@ -5,8 +5,7 @@
 
 .cntrs_all_my{
   display: block;
-	padding-left: 30px;
-  padding-top: 21px;
+	padding: 20px 30px;
   padding-bottom: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -14,6 +13,7 @@
 
 .cntrs_img{
   display: inline-block;
+  vertical-align: top;
 	width: 38px;
 	height: 52px;
 	border: 1px solid #d0d3da;
@@ -22,6 +22,7 @@
 }
 .cntrs_text{
   display: inline-block;
+  vertical-align: top;
 }
 
 .cntrs_text_my{
@@ -114,9 +115,7 @@
 }
 
 .cntrs_button{
-  display: inline-block;
   float: right;
-  padding-right: 30px;
 }
 
 
@@ -152,25 +151,20 @@
 .invest{
   color: #fa8903;
   padding-right: 87px;
-  text-transform: capitalize; 
-}
-
-.cntrs_button{
-  display: inline;
-  border-radius: 50%;
-  margin-top: 24px;
-  margin-right: 30px;
-  margin-bottom: 23px;
 }
 
 .vertical_text{
-    position: absolute;
-    z-index: 90;
-    right: 332px;
-    bottom: 24px;
-    color: #ffffff;
-    padding: 11px 80px;
-    background: #fa8903;
-    clear: both;
-    transform: rotate(-45deg);
+  position: absolute;
+  z-index: 90;
+  right: 20%;
+  bottom: 50%;
+  padding: 11px 80px;
+  background: #fa8903;
+  transform: translateY(50%) rotate(-45deg);
+
+  &_title {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
 }
