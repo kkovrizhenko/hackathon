@@ -12,10 +12,13 @@
 .container {
 	float: right;
     width: calc(100% - 260px);
-    height: 100%;
+    min-height: 100%;
     position: relative;
     transition: width 0.3s ease;
-    overflow: scroll;
+
+    &_content {
+    	padding-bottom: 60px;
+    }
 }
 
 .container.container-closed-m {

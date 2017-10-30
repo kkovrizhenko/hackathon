@@ -2,21 +2,23 @@
 @@include('../templates/components/menu/menu.html')
 
 <div class="container ">
-	@@include('../templates/components/header/header.html')
-	@@include('../templates/components/page-title/page-title.html')
-	@@include('../templates/profile/profile-header/profile-header.html')
-	@@include('../templates/components/tabs/tabs.html', {
-	   "btn": {
-	       "n1": "Контакти",
-	       "n2": "Адреса",
-	       "n3": "Налаштування"
-	   },
-	   "view": {
-	       "c1": "@@include('../../blocks/profile-contacts/profile-contacts.html')",
-	       "c2": "@@include('../../blocks/profile-address/profile-address.html')",
-	       "c3": "@@include('../../blocks/profile-settings/profile-settings.html')"
-	   }
-	})
+	<div class="container_content">
+		@@include('../templates/components/header/header.html')
+		@@include('../templates/components/page-title/page-title.html')
+		@@include('../templates/profile/profile-header/profile-header.html')
+		@@include('../templates/components/tabs/tabs.html', {
+		   "btn": {
+		       "n1": "Контакти",
+		       "n2": "Адреса",
+		       "n3": "Налаштування"
+		   },
+		   "view": {
+		       "c1": "@@include('../../blocks/profile-contacts/profile-contacts.html')",
+		       "c2": "@@include('../../blocks/profile-address/profile-address.html')",
+		       "c3": "@@include('../../blocks/profile-settings/profile-settings.html')"
+		   }
+		})
+	</div>
 	@@include('../templates/components/footer/footer.html')
 </div>
 
