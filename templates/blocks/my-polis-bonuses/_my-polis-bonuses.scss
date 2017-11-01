@@ -3,6 +3,15 @@
 	&-chart {
 		padding: 36px 30px 25px;
 		margin: 0 auto;
+		max-width: 900px;
+	}
+
+	.polis-payments {
+		margin-bottom: 30px;
+
+		&-row {
+			background-color: white;
+		}
 	}
 }
 
@@ -13,12 +22,3 @@ h3[class="polis-payment-title"] {
 .chart {
 	width: 100%;
 }
-
-.polis-payments {
-	padding-bottom: 30px;
-
-	&-row {
-		background-color: white;
-	}
-}
-
