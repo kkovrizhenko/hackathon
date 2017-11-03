@@ -17,4 +17,20 @@
 
 .profile-title {
 	padding: 38px 65px 32px 30px;
+
+	&_link {
+		position: relative;
+		display: inline-block;
+	}
+
+	&-icon {
+			position: absolute;
+			content: '';
+			left: 100%;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 16px;
+			height: 16px;
+			margin-left: 20px;
+		}
 }
