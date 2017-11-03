@@ -11,12 +11,11 @@
     z-index: 1;
     font-family: Roboto;
     font-size: 16px;
-    padding: 10px 0;
+    padding: 10px 16px 18px 31px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08);
 }
 
 .header-in {
-    padding: 0 0 10px 17px;
     position: relative;
     line-height: 52px;
 }
@@ -38,17 +37,35 @@
 .header-btn-search {
     border: none;
     background-color: transparent;
-    background: url(../images/header/icon-search.svg) 0 center no-repeat;
     width: 27px;
     height: 27px;
-    display: inline-block;
-    vertical-align: middle;
+    vertical-align: text-top;
 }
 
 .header-search-form {
     border: none;
     width: 94%;
     height: 38px;
+}
+
+::-webkit-input-placeholder {
+    color:$grey-light-color;
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    color:$grey-light-color;
+    font-size: 16px;
+}
+
+:-moz-placeholder {
+    color:$grey-light-color;
+    font-size: 16px;
+}
+
+:-ms-input-placeholder {
+    color:$grey-light-color;
+    font-size: 16px;
 }
 
 .header-user {
@@ -61,7 +78,7 @@
 }
 
 .icon-user {
-    background: url(../images/header/header-user_pic.png) 0 center no-repeat;
+    background: url(../../../pic/header-user_pic.png) 0 center no-repeat;
     width: 42px;
     height: 42px;
     display: inline-block;
@@ -81,16 +98,15 @@
 }
 
 .icon-notification {
-    background: url(../images/header/icon-notification.svg) 0 center no-repeat;
     width: 40px;
     height: 40px;
-    display: inline-block;
-    vertical-align: middle;
+    background-position: center;
 }
 
 
 	.icon-guest {
-		// background: url(../images/header/icon-guest2.svg) 0 center no-repeat;
+		background-color: #e1e2e9;
+        background-size: contain;
 		width: 42px;
 		height: 42px;
 		display: inline-block;
