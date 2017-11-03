@@ -12,27 +12,23 @@
 	&__phone-number
 		padding: 0 25px 29px 44px
 		position: relative
-		display: inline-block
-
-		&::before
-			content: ''
-			position: absolute
-			left: 0
-			top: 0
 
 	&__email
 		position: relative
 		padding: 0 25px 37px 44px
-		display: inline-block
 
-		&::before
-			content: ''
-			position: absolute
-			left: 0
-			top: 0
-			background: url('icon-email.svg'), no-repeat
-			width: 23px
-			height: 23px
+		&_link
+			position: relative
+
+			.icon-icon-email
+				content: ''
+				position: absolute
+				right: 100%
+				top: 50%
+				transform: translateY(-50%)
+				width: 23px
+				height: 23px
+				margin-right: 20px
 
 	&__contact-number::before 
 		background: url('icon-mobile2.svg')
