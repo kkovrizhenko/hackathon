@@ -1,3 +1,49 @@
 .contracts-title {
 	padding: 28px 65px 29px 76px;
+
+	&-content {
+		position: relative;
+	}
+}
+
+.title-search {
+	position: absolute;
+	right: 100%;
+	top: 0;
+	margin-right: 20px;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+
+	&-form {
+		@extend .page-title_title;
+		border: none;
+		height: 24px;
+		width: 100%;
+	}
+}
+
+::-webkit-input-placeholder {
+    color: #1a2235;
+    font-family: Roboto;
+    font-size: 22px;
+}
+
+::-moz-placeholder {
+    color: #1a2235;
+    font-size: 22px;
+}
+
+:-moz-placeholder {
+    color: #1a2235;
+    font-size: 22px;
+}
+
+:-ms-input-placeholder {
+    color: #1a2235;
+    font-size: 22px;
+}
+
+:focus::-webkit-input-placeholder {
+	color: transparent;
 }
