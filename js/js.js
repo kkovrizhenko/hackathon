@@ -9,4 +9,3 @@ $( ".slide-menu-togle" ).click(function() {
 $('body').on("click", ".sgn-btn-continue", function(e){
    $(".sign-form, .sign-in__form-code").toggle();
 });
-

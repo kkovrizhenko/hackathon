@@ -20,10 +20,13 @@
     line-height: 52px;
 }
 
-.header-logo {
+.header__logo {
     float: left;
     vertical-align: middle;
+    background: url(../../../pic/logo.png) 0 center no-repeat;
     min-width: 107px;
+    height: 42px;
+    display: inline-block;
 }
 
 .header-search {
