@@ -1,3 +1,29 @@
 .my-polis-title {
 	padding: 38px 65px 29px 72px;
+
+	&-content {
+		position: relative;
+	}
+
+	&-back {
+		position: absolute;
+		right: 100%;
+		top: 0;
+		transform: translateY(50%);
+		margin-right: 34px;
+		width: 10px;
+		height: 17px;
+	}
+}
+
+.select-sm {
+	width: 9px;
+	height: 5px;
+	margin-left: 10px;
+}
+
+.select-lg {
+	width: 13px;
+	height: 7px;
+	margin-left: 55px;
 }
