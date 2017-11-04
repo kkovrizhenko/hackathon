@@ -11,7 +11,6 @@
 }
 
 .cntrs_img{
-  display: inline-block;
   vertical-align: top;
 	width: 38px;
 	height: 52px;
@@ -21,7 +20,7 @@
 }
 .cntrs_text{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .cntrs_text_my{
@@ -39,7 +38,6 @@
 }
 
 .cntrs_text_icon{
-  display: inline;
 	width: 13px;
   height: 13px;
 }
@@ -58,7 +56,8 @@
   display: inline-block;
 }
 .cntrs_info_calendar{
-  display: inline;
+  width: 13px;
+  height: 11px;
   padding-right: 10px;
 }
 .cntrs_info_letter{
@@ -77,14 +76,15 @@
   line-height: 19px;
 }
 
-.cntrs_info_shield{
-  display: inline;
-  padding-left: 44px;
-  padding-right: 9px;
+.cntrs_status_payment {
+  width: 11px;
+  height: 11px;
 }
 
-.cntrs_shield{
-  padding-left: 57px;
+.cntrs_info_shield{
+  width: 10px;
+  height: 12px;
+  margin-left: 63px;
 }
 
 .cntrs_info_junior{
@@ -115,14 +115,18 @@
 
 .cntrs_button{
   float: right;
+  position: relative;
+  padding-left: 77px;
 }
 
 
 .cntrs_symbol{
-  display: inline;
-  background-image: url(../../../images/general/icon-next.svg);
-  padding-right: 77px;
-  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 21px;
 }
 
 .cntrs_all_my_status{
@@ -144,7 +148,9 @@
 }
 
 .cntrs_img_lemon{
-  padding-right: 29px;
+  width: 39px;
+  height: 29px;
+  margin-right: 29px;
 }
 
 .invest{
